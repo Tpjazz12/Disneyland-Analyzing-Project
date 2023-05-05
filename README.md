@@ -64,6 +64,8 @@ An attempt to perform sentiment analysis on Disneyland reviews using various nat
 | Accuracy  |           |        | 0.68     | 8532    |
 | Macro avg | 0.49      | 0.55   | 0.50     | 8532    |
 | Weighted avg | 0.78   | 0.68   | 0.72     | 8532    |
+![image](https://user-images.githubusercontent.com/111785493/236555874-f0d10a2f-733b-4580-a033-c66eab9bcea5.png)
+
 
 **Hugging Face:**
 
@@ -76,6 +78,9 @@ An attempt to perform sentiment analysis on Disneyland reviews using various nat
 | Accuracy  |           |        | 0.12     | 8005    |
 | Macro avg | 0.34      | 0.37   | 0.13     | 8005    |
 | Weighted avg | 0.64   | 0.12   | 0.08     | 8005    |
+
+![image](https://user-images.githubusercontent.com/111785493/236555812-74d6d57f-5831-4618-81f2-79e61b6c154d.png)
+
 
 ### Conclusions
 * From the table, we csn draw to this conclusion:
