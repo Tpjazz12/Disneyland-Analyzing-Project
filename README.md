@@ -130,6 +130,8 @@ Required packages include:
 * Hugging Face Hub: https://huggingface.co/models
 * Hugging Face Pretrained model used: https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english
 * Useful videos used on understanding Hugging Face: https://www.youtube.com/watch?v=GSt00_-0ncQ
+* Vader and TextBlob model used: https://github.com/MarshDee/DisneyNLP/blob/main/Disneyland%20-%20Vader%20Sentiment%20Analysis%20%26%20More%20EDA.ipynb
+* Video for scraping data and applying wordcloud model: https://www.youtube.com/watch?v=AykxRJZXbfc
 
 
 
