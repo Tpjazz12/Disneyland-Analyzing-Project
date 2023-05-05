@@ -16,24 +16,24 @@ An attempt to perform sentiment analysis on Disneyland reviews using various nat
 
 ### Data
  * Data:
-  ** Type: Text data (Disneyland reviews)
-  ** Input: CSV file containing review text and associated ratings
-  ** Size: 42,656 reviews
-  ** Instances (Train, Test Split): 80% for training, 20% for testing
+   * Type: Text data (Disneyland reviews)
+   * Input: CSV file containing review text and associated ratings
+   * Size: 42,656 reviews
+   * Instances (Train, Test Split): 80% for training, 20% for testing
    
  * Preprocessing / Clean up
-  ** The dataset was cleaned by removing unnecessary characters, punctuations, and stopwords using the NLTK library.  
+   * The dataset was cleaned by removing unnecessary characters, punctuations, and stopwords using the NLTK library.  
 
  * Data Visualization
-  ** Word clouds were created for each rating category to visualize the most frequently used words in the reviews.
-  ** Various plots were used during the EDA to understand the data's characteristics, distribution, and trends.
+   * Word clouds were created for each rating category to visualize the most frequently used words in the reviews.
+   * Various plots were used during the EDA to understand the data's characteristics, distribution, and trends.
 
 ### Problem Formulation
  * Define:
-  ** Input: Sentiment scores from VADER, TextBlob, and Hugging Face
-  ** Output: Sentiment category (Negative, Neutral, Positive)
-  ** Models: Logistic Regression models were used for sentiment classification.
-  ** Loss, Optimizer, other Hyperparameters: Default settings were used for logistic regression.
+   * Input: Sentiment scores from VADER, TextBlob, and Hugging Face
+   * Output: Sentiment category (Negative, Neutral, Positive)
+   * Models: Logistic Regression models were used for sentiment classification.
+   * Loss, Optimizer, other Hyperparameters: Default settings were used for logistic regression.
 
 ### Training
   * Logistic regression models were trained using the Scikit-learn library.
@@ -70,10 +70,10 @@ An attempt to perform sentiment analysis on Disneyland reviews using various nat
 
 ### Conclusions
 * From the table, we csn draw to this conclusion:
-  ** The VADER and TextBlob based model performed significantly better than the Hugging Face based model. The VADER and TextBlob model achieved an accuracy of 0.68, while the Hugging Face model had an accuracy of 0.12.
-  ** The VADER and TextBlob based model's performance in classifying negative and positive sentiments was quite good, with a precision of 0.34 and 0.92, respectively. However, its performance in identifying neutral sentiment was relatively lower, with a precision of 0.20.
-  ** The Hugging Face model struggled to classify positive sentiment, as indicated by the low precision and F1-score. This model might not be well-suited for this specific dataset or problem.
-  **  The EDA and word clouds provided valuable insights into the dataset, such as the most common words used in each rating category. This information could potentially help improve the sentiment analysis models by incorporating more domain-specific knowledge or refining the feature extraction process.
+   * The VADER and TextBlob based model performed significantly better than the Hugging Face based model. The VADER and TextBlob model achieved an accuracy of 0.68, while the Hugging Face model had an accuracy of 0.12.
+   * The VADER and TextBlob based model's performance in classifying negative and positive sentiments was quite good, with a precision of 0.34 and 0.92, respectively. However, its performance in identifying neutral sentiment was relatively lower, with a precision of 0.20.
+   * The Hugging Face model struggled to classify positive sentiment, as indicated by the low precision and F1-score. This model might not be well-suited for this specific dataset or problem.
+   *  The EDA and word clouds provided valuable insights into the dataset, such as the most common words used in each rating category. This information could potentially help improve the sentiment analysis models by incorporating more domain-specific knowledge or refining the feature extraction process.
 * The VADER and TextBlob based model performed significantly better for this specific dataset. Future work could involve refining the Hugging Face model, exploring other machine learning algorithms, or incorporating more domain-specific knowledge to further improve sentiment analysis performance.
 
 ### Future Work
