@@ -28,7 +28,13 @@ An attempt to perform sentiment analysis on Disneyland reviews using various nat
    * Word clouds were created for each rating category to visualize the most frequently used words in the reviews.
    * Various plots were used during the EDA to understand the data's characteristics, distribution, and trends.
 
-![image](https://user-images.githubusercontent.com/111785493/236555147-dee2e26a-7af3-4f5b-830d-2c54e4f02bdd.png)
+![image](https://user-images.githubusercontent.com/111785493/236555402-086d5921-bab3-4cca-b6d4-b9101f2cfe93.png)
+
+
+![image](https://user-images.githubusercontent.com/111785493/236555482-d2ff055b-bd92-409e-a48c-0fc01bb30bce.png)
+
+
+![image](https://user-images.githubusercontent.com/111785493/236555587-5c45f616-5259-4347-b7ff-0860a31d4a18.png)
 
 ### Problem Formulation
  * Define:
