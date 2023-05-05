@@ -10,7 +10,7 @@ An attempt to perform sentiment analysis on Disneyland reviews using various nat
 
 * The main goal of this project is to analyze Disneyland reviews to gain insights into the sentiments expressed by customers and understand which factors contribute to their experience. The analysis begins with an EDA, which involves cleaning the dataset, removing stop words using the NLTK library, and creating word clouds for each rating category to visualize the most frequently used words in the reviews.
 
-* Next, we perform sentiment analysis using three different approaches: VADER, TextBlob, and Hugging Face. Each approach provides a unique perspective on the reviews' sentiment scores, which can be used to understand the general sentiment trends in the data.
+* Next, we perform sentiment analysis using three different approaches: VADER, TextBlob, and a pretrained model for sentiment analysis from the Hugging Face Hub. Each approach provides a unique perspective on the reviews' sentiment scores, which can be used to understand the general sentiment trends in the data.
 
 * Finally, we train logistic regression models to classify the reviews into different sentiment categories (Negative, Neutral, Positive) based on the sentiment scores obtained from the VADER, TextBlob, and Hugging Face sentiment analysis. The performance of these models is evaluated using precision, recall, and F1-score metrics, allowing us to compare and identify the best performing approach.
 
