@@ -127,7 +127,9 @@ Required packages include:
 
 ## Citation
 
-
+* Hugging Face Hub: https://huggingface.co/models
+* Hugging Face Pretrained model used: https://huggingface.co/distilbert-base-uncased-finetuned-sst-2-english
+* Useful videos used on understanding Hugging Face: https://www.youtube.com/watch?v=GSt00_-0ncQ
 
 
 
