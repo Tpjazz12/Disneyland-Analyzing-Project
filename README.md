@@ -44,6 +44,7 @@ An attempt to perform sentiment analysis on Disneyland reviews using various nat
 ### Performance Comparison
   * Key performance metrics: Precision, recall, and F1-score.
   * Results were presented in tables and visualizations to compare the performance of logistic regression models based on VADER, TextBlob, and Hugging Face sentiment scores.
+  
   **VADER and TextBlob:**
 
 | Sentiment | Precision | Recall | F1-score | Support |
