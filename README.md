@@ -68,6 +68,22 @@ An attempt to perform sentiment analysis on Disneyland reviews using various nat
 | Macro avg | 0.34      | 0.37   | 0.13     | 8005    |
 | Weighted avg | 0.64   | 0.12   | 0.08     | 8005    |
 
+### Conclusions
+* From the table, we csn draw to this conclusion:
+  * The VADER and TextBlob based model performed significantly better than the Hugging Face based model. The VADER and TextBlob model achieved an accuracy of 0.68, while the Hugging Face model had an accuracy of 0.12.
+  * The VADER and TextBlob based model's performance in classifying negative and positive sentiments was quite good, with a precision of 0.34 and 0.92, respectively. However, its performance in identifying neutral sentiment was relatively lower, with a precision of 0.20.
+  * The Hugging Face model struggled to classify positive sentiment, as indicated by the low precision and F1-score. This model might not be well-suited for this specific dataset or problem.
+ *  The EDA and word clouds provided valuable insights into the dataset, such as the most common words used in each rating category. This information could potentially help improve the sentiment analysis models by incorporating more domain-specific knowledge or refining the feature extraction process.
+* The VADER and TextBlob based model performed significantly better for this specific dataset. Future work could involve refining the Hugging Face model, exploring other machine learning algorithms, or incorporating more domain-specific knowledge to further improve sentiment analysis performance.
+
+### Future Work
+* Experiment with other classification algorithms such as Random Forest or SVM to improve the sentiment classification.
+* Perform a more comprehensive feature engineering process to identify other potentially informative features for sentiment classification.
+* Explore more advanced deep learning models, such as BERT, to perform sentiment analysis directly on the text data.
+
+
+
+
       
 
 
